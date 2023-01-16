@@ -56,6 +56,9 @@
     font-size: 0.7rem;
     color: var(--color-light);
 }
+.about__content {
+    margin-top: 2.5rem;
+}
 
 .about__content p {
     margin: 2rem 0 2.6rem;
