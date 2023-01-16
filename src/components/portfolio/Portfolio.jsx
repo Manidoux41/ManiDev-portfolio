@@ -1,6 +1,9 @@
 import React from "react";
 import booki from "../../assets/booki.JPG";
-import ohmyfood from "../../assets/ohmyfood.JPG"
+import ohmyfood from "../../assets/ohmyfood.JPG";
+import lapanthere from "../../assets/lapanthere.JPG";
+import kasa from "../../assets/kasa.JPG"
+import pikante from "../../assets/backend-pikante.JPG"
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -55,19 +58,19 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={booki} alt="booki.com" />
+            <img src={lapanthere} alt="La panthere" />
           </div>
           <h3>La Panthère</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Manidoux41/booki_v5.git"
+              href="https://github.com/Manidoux41/la_panthere_v3.git"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://manidoux41.github.io/booki_v5/"
+              href="https://la-panthere-v3.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -75,43 +78,44 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={booki} alt="booki.com" />
+            <img src={pikante} alt="booki.com" />
           </div>
           <h3>Pikante</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Manidoux41/booki_v5.git"
+              href="https://github.com/Manidoux41/backend-pikante-P6.git"
               className="btn"
               target="_blank"
             >
               Github
             </a>
-            <a
+            {/* <a
               href="https://manidoux41.github.io/booki_v5/"
               className="btn btn-primary"
               target="_blank"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={booki} alt="booki.com" />
+            <img src={kasa} alt="kasa" />
           </div>
           <h3>Kasa</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Manidoux41/booki_v5.git"
+              href="https://github.com/Manidoux41/kasa_v3.git"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://manidoux41.github.io/booki_v5/"
+              href="https://la-panthere-v3.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
