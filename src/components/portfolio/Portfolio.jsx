@@ -1,5 +1,6 @@
 import React from "react";
 import booki from "../../assets/booki.JPG";
+import ohmyfood from "../../assets/ohmyfood.JPG"
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -32,19 +33,19 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={booki} alt="booki.com" />
+            <img src={ohmyfood} alt="booki.com" />
           </div>
           <h3>OhMyFood</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Manidoux41/booki_v5.git"
+              href="https://github.com/Manidoux41/ohMyfood_v4.git"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://manidoux41.github.io/booki_v5/"
+              href="https://manidoux41.github.io/ohMyfood_v4/"
               className="btn btn-primary"
               target="_blank"
             >

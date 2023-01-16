@@ -17,6 +17,7 @@
 }
 
 .portfolio__item-image {
+    height: 200px;
     border-radius: 1.5rem;
     overflow: hidden;
 }
