@@ -33,7 +33,7 @@ const data = [
     id: 4,
     image: pikante,
     title: 'Pikante - Backend utilisant NodeJS et Express',
-    github: 'https://github.com/Manidoux41/backend-pikante-P6.git',
+    // github: 'https://github.com/Manidoux41/backend-pikante-P6.git',
     demo: 'https://la-panthere-v3.vercel.app/'
   },
   {
