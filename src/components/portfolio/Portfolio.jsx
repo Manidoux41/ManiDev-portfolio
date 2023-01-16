@@ -41,7 +41,7 @@ const data = [
     image: kasa,
     title: 'Kasa - Application ReactJS',
     github: 'https://github.com/Manidoux41/kasa_v3.git',
-    demo: 'https://la-panthere-v3.vercel.app/'
+    demo: 'https://kasa-v2.vercel.app/'
   }
 ]
 
